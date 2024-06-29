@@ -22,7 +22,7 @@ After this, it may still be necessary to create a new builder, even though the d
 
 ## Build and publish
 
-`docker buildx build --platform linux/amd64,linux/arm64 -t technosam/qbittorrent-gluetun-port-update:$version -t technosam/qbittorrent-gluetun-port-update:latest --push .`
+`docker buildx build --platform linux/amd64,linux/arm64 -t jgramling17/transmission-gluetun-port-update:$version -t jgramling17/transmission-gluetun-port-update:latest --push .`
 
 If you rebuild without making changes to the script or Dockerfile, the digest should be the same. This is useful if you forget to include the correct tags.
 

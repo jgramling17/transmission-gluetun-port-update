@@ -1,2 +1,2 @@
-docker image rm -f qbittorrent-gluetun-port-update
-docker build -t qbittorrent-gluetun-port-update .
+docker image rm -f transmission-gluetun-port-update
+docker build -t transmission-gluetun-port-update .
